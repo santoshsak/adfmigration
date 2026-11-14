@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimeformig",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

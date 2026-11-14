@@ -1,0 +1,15 @@
+{
+	"name": "adf-onprem-migr",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "43216ce9-05c9-43d4-a18a-7b3579631b1a",
+		"tenantId": "ec94f96b-a6f1-40cf-aa3c-f65487ed90db"
+	}
+}

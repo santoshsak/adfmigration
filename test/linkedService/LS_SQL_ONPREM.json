@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQL_ONPREM",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "SANTOSH\\SQLEXPRESS",
+			"database": "JLL",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "Windows",
+			"userName": "SANTOSH\\lenovo",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzNDdiMDM1OS1lOGM0LTRkMzYtYWUzNS1lMjEzNTMzZGQyM2EiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeformig",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
